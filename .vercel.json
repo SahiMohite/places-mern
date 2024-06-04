@@ -13,10 +13,8 @@
     }
   ],
   "env": {
-    "BRANCH": "main"
-  },
-  "scripts": {
-    "vercel-deploy": "if [ \"$BRANCH\" != \"main\" ]; then echo \"Cannot deploy from $BRANCH branch\"; exit 1; fi"
+    "MONGO_ATLAS_URL": "mongodb+srv://sahilkmohite897:sahil123@cluster0.vy5iwhz.mongodb.net/mern?retryWrites=true&w=majority&appName=Cluster0"
   }
 }
+
 
